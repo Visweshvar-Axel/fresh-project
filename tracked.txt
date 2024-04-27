@@ -1,0 +1,76 @@
+
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ ls -al
+total 18
+drwxr-xr-x 1 VISWA 197609    0 Apr 27 14:24  ./
+drwxr-xr-x 1 VISWA 197609    0 Apr 27 14:06  ../
+drwxr-xr-x 1 VISWA 197609    0 Apr 27 17:42  .git/
+-rw-r--r-- 1 VISWA 197609 2894 Apr 27 13:52 'fresh project cmd.txt'
+-rw-r--r-- 1 VISWA 197609 2232 Apr 27 14:59 'git add commit push cmd.txt'
+-rw-r--r-- 1 VISWA 197609  630 Apr 27 13:45  hipster.txt
+-rw-r--r-- 1 VISWA 197609  225 Apr 27 17:38  index.html
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git commit -a -m "index updated"
+[master a743f67] index updated
+ 1 file changed, 1 insertion(+)
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git commit -am "using am cmd"
+[master 040bd00] using am cmd
+ 1 file changed, 1 insertion(+)
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        tracked.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git commit -am "make am not working"
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        tracked.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git add .
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git commit -am "make am working"
+[master f4a9155] make am working
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 tracked.txt
+
