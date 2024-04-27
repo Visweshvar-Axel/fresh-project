@@ -1,0 +1,203 @@
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ignoretest.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ ls -al
+total 77
+drwxr-xr-x 1 VISWA 197609     0 Apr 27 22:06  ./
+drwxr-xr-x 1 VISWA 197609     0 Apr 27 14:06  ../
+drwxr-xr-x 1 VISWA 197609     0 Apr 27 22:06  .git/
+-rw-r--r-- 1 VISWA 197609  2428 Apr 27 19:39 'alias cmd.txt'
+-rw-r--r-- 1 VISWA 197609  2506 Apr 27 18:43 'break out changes.txt'
+-rw-r--r-- 1 VISWA 197609  7391 Apr 27 19:08 'delete mcd.txt'
+-rw-r--r-- 1 VISWA 197609  2894 Apr 27 13:52 'fresh project cmd.txt'
+-rw-r--r-- 1 VISWA 197609  2232 Apr 27 14:59 'git add commit push cmd.txt'
+-rw-r--r-- 1 VISWA 197609   630 Apr 27 13:45  hipster.txt
+-rw-r--r-- 1 VISWA 197609 14560 Apr 27 19:21 'history cmd.txt'
+-rw-r--r-- 1 VISWA 197609     0 Apr 27 22:06  ignoretest.txt
+-rw-r--r-- 1 VISWA 197609   891 Apr 27 18:34  index.html
+drwxr-xr-x 1 VISWA 197609     0 Apr 27 18:41  level1/
+-rw-r--r-- 1 VISWA 197609  2517 Apr 27 17:49 'modified cmd.txt'
+-rw-r--r-- 1 VISWA 197609  8105 Apr 27 19:00 'raname and move cmd.txt'
+-rw-r--r-- 1 VISWA 197609  1754 Apr 27 19:03 'recursive add.txt'
+-rw-r--r-- 1 VISWA 197609  2666 Apr 27 17:46  tracked.txt
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ toush .gitignore
+bash: toush: command not found
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ touch .gitignore
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ ls -al
+total 77
+drwxr-xr-x 1 VISWA 197609     0 Apr 27 22:07  ./
+drwxr-xr-x 1 VISWA 197609     0 Apr 27 14:06  ../
+drwxr-xr-x 1 VISWA 197609     0 Apr 27 22:06  .git/
+-rw-r--r-- 1 VISWA 197609     0 Apr 27 22:07  .gitignore
+-rw-r--r-- 1 VISWA 197609  2428 Apr 27 19:39 'alias cmd.txt'
+-rw-r--r-- 1 VISWA 197609  2506 Apr 27 18:43 'break out changes.txt'
+-rw-r--r-- 1 VISWA 197609  7391 Apr 27 19:08 'delete mcd.txt'
+-rw-r--r-- 1 VISWA 197609  2894 Apr 27 13:52 'fresh project cmd.txt'
+-rw-r--r-- 1 VISWA 197609  2232 Apr 27 14:59 'git add commit push cmd.txt'
+-rw-r--r-- 1 VISWA 197609   630 Apr 27 13:45  hipster.txt
+-rw-r--r-- 1 VISWA 197609 14560 Apr 27 19:21 'history cmd.txt'
+-rw-r--r-- 1 VISWA 197609     0 Apr 27 22:06  ignoretest.txt
+-rw-r--r-- 1 VISWA 197609   891 Apr 27 18:34  index.html
+drwxr-xr-x 1 VISWA 197609     0 Apr 27 18:41  level1/
+-rw-r--r-- 1 VISWA 197609  2517 Apr 27 17:49 'modified cmd.txt'
+-rw-r--r-- 1 VISWA 197609  8105 Apr 27 19:00 'raname and move cmd.txt'
+-rw-r--r-- 1 VISWA 197609  1754 Apr 27 19:03 'recursive add.txt'
+-rw-r--r-- 1 VISWA 197609  2666 Apr 27 17:46  tracked.txt
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        ignoretest.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git add .
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git commit -m "added gitignore to exclude"
+[master 8b01e36] added gitignore to exclude
+ 1 file changed, 1 insertion(+)
+ create mode 100644 .gitignore
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ ls -al
+total 79
+drwxr-xr-x 1 VISWA 197609     0 Apr 27 22:26  ./
+drwxr-xr-x 1 VISWA 197609     0 Apr 27 14:06  ../
+drwxr-xr-x 1 VISWA 197609     0 Apr 27 22:25  .git/
+-rw-r--r-- 1 VISWA 197609    14 Apr 27 22:26  .gitignore
+-rw-r--r-- 1 VISWA 197609     9 Apr 27 22:26  access.log
+-rw-r--r-- 1 VISWA 197609  2428 Apr 27 19:39 'alias cmd.txt'
+-rw-r--r-- 1 VISWA 197609  2506 Apr 27 18:43 'break out changes.txt'
+-rw-r--r-- 1 VISWA 197609  7391 Apr 27 19:08 'delete mcd.txt'
+-rw-r--r-- 1 VISWA 197609  2894 Apr 27 13:52 'fresh project cmd.txt'
+-rw-r--r-- 1 VISWA 197609  2232 Apr 27 14:59 'git add commit push cmd.txt'
+-rw-r--r-- 1 VISWA 197609   630 Apr 27 13:45  hipster.txt
+-rw-r--r-- 1 VISWA 197609 14560 Apr 27 19:21 'history cmd.txt'
+-rw-r--r-- 1 VISWA 197609     0 Apr 27 22:24  ignoretest.txt
+-rw-r--r-- 1 VISWA 197609   891 Apr 27 18:34  index.html
+drwxr-xr-x 1 VISWA 197609     0 Apr 27 18:41  level1/
+-rw-r--r-- 1 VISWA 197609  2517 Apr 27 17:49 'modified cmd.txt'
+-rw-r--r-- 1 VISWA 197609  8105 Apr 27 19:00 'raname and move cmd.txt'
+-rw-r--r-- 1 VISWA 197609  1754 Apr 27 19:03 'recursive add.txt'
+-rw-r--r-- 1 VISWA 197609  2666 Apr 27 17:46  tracked.txt
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        access.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git add .
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git commit -m "added gitignore to *log"
+[master f6c9c06] added gitignore to *log
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git add .
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git commit -m "added gitignore to log dir"
+[master ff048f0] added gitignore to log dir
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
