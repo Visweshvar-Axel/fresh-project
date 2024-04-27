@@ -1,0 +1,219 @@
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ cd level1/level2/level3//level4/level5
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3/level4/level5 (master)
+$ ls
+level5.txt
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3/level4/level5 (master)
+$ git mv level5.txt level05.txt
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3/level4/level5 (master)
+$ ls
+level05.txt
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3/level4/level5 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 10 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    level5.txt -> level05.txt
+
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3/level4/level5 (master)
+$ git add .
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3/level4/level5 (master)
+$ git commit -m "rename level 5"
+[master 0943d63] rename level 5
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename level1/level2/level3/level4/level5/{level5.txt => level05.txt} (100%)
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3/level4/level5 (master)
+$ cd ..
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3/level4 (master)
+$ cd ..
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ ls
+level3.txt  level4/
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ mv level3.txt level03.txt
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ ls
+level03.txt  level4/
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 11 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    level3.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        level03.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ git add .
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 11 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    level3.txt -> level03.txt
+
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ git add -A
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 11 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    level3.txt -> level03.txt
+
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ git commit -m "rename -A"
+[master f2bfd2a] rename -A
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename level1/level2/level3/{level3.txt => level03.txt} (100%)
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ ls
+level03.txt  level4/
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ git mv level2.txt 2.txt
+fatal: bad source, source=level1/level2/level3/level2.txt, destination=level1/level2/level3/2.txt
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ ls
+level03.txt  level4/
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 12 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ ls
+level03.txt  level4/
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ git mv level103.txt level4
+fatal: bad source, source=level1/level2/level3/level103.txt, destination=level1/level2/level3/level4/level103.txt
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ git mv level03.txt level4
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ ls
+level4/
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ cd level4
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3/level4 (master)
+$ ls
+level03.txt  level4.txt  level5/
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3/level4 (master)
+$ git add .
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3/level4 (master)
+$ git commit -m "move"
+[master 2a9f621] move
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename level1/level2/level3/{ => level4}/level03.txt (100%)
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3/level4 (master)
+$ ls
+level03.txt  level4.txt  level5/
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3/level4 (master)
+$ mv level03txt ..
+mv: cannot stat 'level03txt': No such file or directory
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3/level4 (master)
+$ mv level03.txt ..
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3/level4 (master)
+$ ls
+level4.txt  level5/
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3/level4 (master)
+$ cd ..
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ ls
+level03.txt  level4/
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 13 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    level4/level03.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        level03.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ git add -A
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 13 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    level4/level03.txt -> level03.txt
+
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ git commit -m "move level back"
+[master 866b709] move level back
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename level1/level2/level3/{level4 => }/level03.txt (100%)
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2/level3 (master)
+$ cd ..
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/level1/level2 (master)
+$ ls
+level2.txt  level3/
+
