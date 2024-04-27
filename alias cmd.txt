@@ -1,0 +1,78 @@
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 19 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git log --all --graph --decorate --oneline
+* ef4cf31 (HEAD -> master) cmd history
+* 89b1b8f deleted cmd
+* 8f05a97 deleted level5
+* f2efbc2 tracked
+* f3cbd92 move cmd
+* 866b709 move level back
+* 2a9f621 move
+* f2bfd2a rename -A
+* 0943d63 rename level 5
+* 185e540 break out cmd
+* ba95332 resursve cmd
+* 127aa43 recursive add
+* afd3e33 modified cmd
+* 770eaee adding changes in index add
+* efc6289 adding changes in index
+* 182a98b track cmd
+* f4a9155 make am working
+* 040bd00 using am cmd
+* a743f67 index updated
+* 44ba13b (origin/master) index U
+* cca15c9 index added
+* 317f7fd adding new file in hipster this is dome with text mate
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git hist
+git: 'hist' is not a git command. See 'git --help'.
+
+The most similar command is
+        bisect
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git config --global alias.hist "git log --all --graph --decorate --oneline"
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git hist
+expansion of alias 'hist' failed; 'git' is not a git command
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ hist
+bash: hist: command not found
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git config --global alias.hist "log --all --graph --decorate --oneline"
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git hist
+* ef4cf31 (HEAD -> master) cmd history
+* 89b1b8f deleted cmd
+* 8f05a97 deleted level5
+* f2efbc2 tracked
+* f3cbd92 move cmd
+* 866b709 move level back
+* 2a9f621 move
+* f2bfd2a rename -A
+* 0943d63 rename level 5
+* 185e540 break out cmd
+* ba95332 resursve cmd
+* 127aa43 recursive add
+* afd3e33 modified cmd
+* 770eaee adding changes in index add
+* efc6289 adding changes in index
+* 182a98b track cmd
+* f4a9155 make am working
+* 040bd00 using am cmd
+* a743f67 index updated
+* 44ba13b (origin/master) index U
+* cca15c9 index added
+* 317f7fd adding new file in hipster this is dome with text mate
