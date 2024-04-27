@@ -1,0 +1,458 @@
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git help log
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 18 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git log
+commit 89b1b8f6576685802c900bc60374b628e824b328 (HEAD -> master)
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 19:08:53 2024 +0530
+
+    deleted cmd
+
+commit 8f05a974ec4d5c505cc807ab068794b124ce73c5
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 19:06:59 2024 +0530
+
+    deleted level5
+
+commit f2efbc20353cc255d80c11aeb8ec2287d1975f97
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 19:02:50 2024 +0530
+
+    tracked
+
+commit f3cbd9278e29d2d6374a2000a26c26294f1f7c69
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:56:51 2024 +0530
+
+    move cmd
+
+commit 866b70923b23670c3929ed4ada127ac3f08e2f1d
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:55:14 2024 +0530
+
+    move level back
+
+commit 2a9f621510790c33154a70f2defe3e472c0945f1
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:52:22 2024 +0530
+
+    move
+
+commit f2bfd2a930faa88e1ee2c85f7effec54901b4d9a
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:48:32 2024 +0530
+
+    rename -A
+
+commit 0943d631e1e2e32cbeaf948667bd4ddb8bc8e531
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:46:08 2024 +0530
+
+    rename level 5
+
+commit 185e5407e3cca632217cb813b915bdbca875fb87
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:43:05 2024 +0530
+
+    break out cmd
+
+commit ba953320ae988f35e15ccea1ccdb36256bfa40d1
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:36:35 2024 +0530
+
+    resursve cmd
+
+commit 127aa43e3b96f8fc771b44a036a3393372b52680
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:35:58 2024 +0530
+
+    recursive add
+
+commit afd3e33f09c448900ab3f2d5f0be5d3ff8948939
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 17:49:55 2024 +0530
+
+
+    modified cmd
+
+commit 770eaee32fe039f7ef87d841d83fd5c7fd89e738
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 17:49:15 2024 +0530
+
+    adding changes in index add
+
+commit efc6289afbb8bfaa25508fd28248eca6dc9af847
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 17:47:55 2024 +0530
+
+    adding changes in index
+
+commit 182a98bd0eb4f08025bcfe40a072481a506b3be6
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 17:46:22 2024 +0530
+
+    track cmd
+
+commit f4a9155149b6188a5cc96975a70cece2db39958c
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 17:45:08 2024 +0530
+
+    make am working
+
+commit 040bd00720b1978d2f2dfafe8377f6bf33af118f
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 17:43:13 2024 +0530
+
+    using am cmd
+
+commit a743f67ff25865ac76a9ea970ec4a0b36af839d2
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 17:42:40 2024 +0530
+
+    index updated
+
+commit 44ba13bfc1d84816c89f9b2f65f5054af8d612b4 (origin/master)
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 14:25:11 2024 +0530
+
+    index U
+
+commit cca15c938ef311d9b9608d0b77fa6ba48f759ee5
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 14:15:33 2024 +0530
+
+    index added
+
+commit 317f7fd70bf0132204f22fe7aa0cdc9bdc006b5c
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 13:47:39 2024 +0530
+
+    adding new file in hipster
+    this is dome with text mate
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git log --oneline
+89b1b8f (HEAD -> master) deleted cmd
+8f05a97 deleted level5
+f2efbc2 tracked
+f3cbd92 move cmd
+866b709 move level back
+2a9f621 move
+f2bfd2a rename -A
+0943d63 rename level 5
+185e540 break out cmd
+ba95332 resursve cmd
+127aa43 recursive add
+afd3e33 modified cmd
+770eaee adding changes in index add
+efc6289 adding changes in index
+182a98b track cmd
+f4a9155 make am working
+040bd00 using am cmd
+a743f67 index updated
+44ba13b (origin/master) index U
+cca15c9 index added
+317f7fd adding new file in hipster this is dome with text mate
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git log --abbrive-commit
+fatal: unrecognized argument: --abbrive-commit
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git log --abbrive--commit
+fatal: unrecognized argument: --abbrive--commit
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git log --abbrev-commit
+commit 89b1b8f (HEAD -> master)
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 19:08:53 2024 +0530
+
+    deleted cmd
+
+commit 8f05a97
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 19:06:59 2024 +0530
+
+    deleted level5
+
+commit f2efbc2
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 19:02:50 2024 +0530
+
+    tracked
+
+commit f3cbd92
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:56:51 2024 +0530
+
+    move cmd
+
+commit 866b709
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:55:14 2024 +0530
+
+    move level back
+
+commit 2a9f621
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:52:22 2024 +0530
+
+    move
+
+commit f2bfd2a
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:48:32 2024 +0530
+
+    rename -A
+
+commit 0943d63
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:46:08 2024 +0530
+
+    rename level 5
+
+commit 185e540
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:43:05 2024 +0530
+
+    break out cmd
+
+commit ba95332
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git log --oneline --graph --decorate
+* 89b1b8f (HEAD -> master) deleted cmd
+* 8f05a97 deleted level5
+* f2efbc2 tracked
+* f3cbd92 move cmd
+* 866b709 move level back
+* 2a9f621 move
+* f2bfd2a rename -A
+* 0943d63 rename level 5
+* 185e540 break out cmd
+* ba95332 resursve cmd
+* 127aa43 recursive add
+* afd3e33 modified cmd
+* 770eaee adding changes in index add
+* efc6289 adding changes in index
+* 182a98b track cmd
+* f4a9155 make am working
+* 040bd00 using am cmd
+* a743f67 index updated
+* 44ba13b (origin/master) index U
+* cca15c9 index added
+* 317f7fd adding new file in hipster this is dome with text mate
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git log 89b1b8f...0943d63
+commit 89b1b8f6576685802c900bc60374b628e824b328 (HEAD -> master)
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 19:08:53 2024 +0530
+
+    deleted cmd
+
+commit 8f05a974ec4d5c505cc807ab068794b124ce73c5
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 19:06:59 2024 +0530
+
+    deleted level5
+
+commit f2efbc20353cc255d80c11aeb8ec2287d1975f97
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 19:02:50 2024 +0530
+
+    tracked
+
+commit f3cbd9278e29d2d6374a2000a26c26294f1f7c69
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:56:51 2024 +0530
+
+    move cmd
+
+commit 866b70923b23670c3929ed4ada127ac3f08e2f1d
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:55:14 2024 +0530
+
+    move level back
+
+commit 2a9f621510790c33154a70f2defe3e472c0945f1
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:52:22 2024 +0530
+
+    move
+
+commit f2bfd2a930faa88e1ee2c85f7effec54901b4d9a
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:48:32 2024 +0530
+
+    rename -A
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git log --since="3 days ago"
+commit 89b1b8f6576685802c900bc60374b628e824b328 (HEAD -> master)
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 19:08:53 2024 +0530
+
+    deleted cmd
+
+commit 8f05a974ec4d5c505cc807ab068794b124ce73c5
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 19:06:59 2024 +0530
+
+    deleted level5
+
+commit f2efbc20353cc255d80c11aeb8ec2287d1975f97
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 19:02:50 2024 +0530
+
+    tracked
+
+commit f3cbd9278e29d2d6374a2000a26c26294f1f7c69
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:56:51 2024 +0530
+
+    move cmd
+
+commit 866b70923b23670c3929ed4ada127ac3f08e2f1d
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:55:14 2024 +0530
+
+    move level back
+
+commit 2a9f621510790c33154a70f2defe3e472c0945f1
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:52:22 2024 +0530
+
+    move
+
+commit f2bfd2a930faa88e1ee2c85f7effec54901b4d9a
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:48:32 2024 +0530
+
+    rename -A
+
+commit 0943d631e1e2e32cbeaf948667bd4ddb8bc8e531
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:46:08 2024 +0530
+
+    rename level 5
+
+commit 185e5407e3cca632217cb813b915bdbca875fb87
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:43:05 2024 +0530
+
+    break out cmd
+
+commit ba953320ae988f35e15ccea1ccdb36256bfa40d1
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git log -- index.html
+commit 127aa43e3b96f8fc771b44a036a3393372b52680
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 18:35:58 2024 +0530
+
+    recursive add
+
+commit 770eaee32fe039f7ef87d841d83fd5c7fd89e738
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 17:49:15 2024 +0530
+
+    adding changes in index add
+
+commit efc6289afbb8bfaa25508fd28248eca6dc9af847
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 17:47:55 2024 +0530
+
+    adding changes in index
+
+commit 040bd00720b1978d2f2dfafe8377f6bf33af118f
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 17:43:13 2024 +0530
+
+    using am cmd
+
+commit a743f67ff25865ac76a9ea970ec4a0b36af839d2
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 17:42:40 2024 +0530
+
+    index updated
+
+commit cca15c938ef311d9b9608d0b77fa6ba48f759ee5
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 14:15:33 2024 +0530
+
+    index added
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git log --follow -- level1/level2/level3/level4/level5/doom.txt
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git show cca15c938ef311d9b9608d0b77fa6ba48f759ee5
+commit cca15c938ef311d9b9608d0b77fa6ba48f759ee5
+Author: Visweshvar-Axel <118894317+Visweshvar-Axel@users.noreply.github.com>
+Date:   Sat Apr 27 14:15:33 2024 +0530
+
+    index added
+
+diff --git a/fresh project cmd.txt b/fresh project cmd.txt
+new file mode 100644
+index 0000000..1af3776
+--- /dev/null
++++ b/fresh project cmd.txt
+@@ -0,0 +1,94 @@
++/d/UST/GIT GITHUB/workspace
++
++VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace
++$ ls
++GithubAction/  foodmate/  livemate/  splitmate/  srtlinks/  web_d_net/  webapplication/
++
++VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace
++$ git init fresh-project
++Initialized empty Git repository in D:/UST/GIT GITHUB/workspace/fresh-project/.git/
++
++VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace
++$ cd fresh-project
++
++VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
++$ ls
++
++VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
++$ ls -al
++total 8
++drwxr-xr-x 1 VISWA 197609 0 Apr 27 13:40 ./
++drwxr-xr-x 1 VISWA 197609 0 Apr 27 13:40 ../
++drwxr-xr-x 1 VISWA 197609 0 Apr 27 13:40 .git/
++
++VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
++$ cd .git
++
++VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/.git (GIT_DIR!)
++$ ls -al
++total 11
++drwxr-xr-x 1 VISWA 197609   0 Apr 27 13:40 ./
++drwxr-xr-x 1 VISWA 197609   0 Apr 27 13:40 ../
++-rw-r--r-- 1 VISWA 197609  23 Apr 27 13:40 HEAD
++-rw-r--r-- 1 VISWA 197609 130 Apr 27 13:40 config
++-rw-r--r-- 1 VISWA 197609  73 Apr 27 13:40 description
++drwxr-xr-x 1 VISWA 197609   0 Apr 27 13:40 hooks/
++drwxr-xr-x 1 VISWA 197609   0 Apr 27 13:40 info/
++drwxr-xr-x 1 VISWA 197609   0 Apr 27 13:40 objects/
++drwxr-xr-x 1 VISWA 197609   0 Apr 27 13:40 refs/
++
++VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project/.git (GIT_DIR!)
++$ cd ..
++
++VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
++$ git status
