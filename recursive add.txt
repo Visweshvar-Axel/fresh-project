@@ -1,0 +1,47 @@
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 7 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        level1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ ls
+'fresh project cmd.txt'         hipster.txt   level1/             tracked.txt
+'git add commit push cmd.txt'   index.html   'modified cmd.txt'
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git add .
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 7 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+        new file:   level1/level1.txt
+        new file:   level1/level2/level2.txt
+        new file:   level1/level2/level3/level3.txt
+        new file:   level1/level2/level3/level4/level4.txt
+        new file:   level1/level2/level3/level4/level5/level5.txt
+
+
+VISWA@VISWA MINGW64 /d/UST/GIT GITHUB/workspace/fresh-project (master)
+$ git commit -m "recursive add"
+[master 127aa43] recursive add
+ 6 files changed, 16 insertions(+), 4 deletions(-)
+ create mode 100644 level1/level1.txt
+ create mode 100644 level1/level2/level2.txt
+ create mode 100644 level1/level2/level3/level3.txt
+ create mode 100644 level1/level2/level3/level4/level4.txt
+ create mode 100644 level1/level2/level3/level4/level5/level5.txt
+
